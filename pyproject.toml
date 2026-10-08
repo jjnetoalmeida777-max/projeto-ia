@@ -9,6 +9,7 @@ description = "Projeto de IA privado e pessoal"
 requires-python = ">=3.13"
 dependencies = [
     "python-dotenv==1.2.4",
+    "openai-agents==0.23.1",
 ]
 
 [tool.pytest.ini_options]
