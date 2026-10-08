@@ -1,4 +1,4 @@
-from src.config import get_env
+from projeto_ia.config import get_env
 
 
 def test_get_env_returns_value(monkeypatch):
