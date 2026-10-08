@@ -21,8 +21,10 @@ projeto-ia/
 ├── src/
 │   └── projeto_ia/
 │       ├── __init__.py
+│       ├── agent.py
 │       └── config.py
 ├── tests/
+│   ├── test_agent.py
 │   └── test_config.py
 ├── main.py
 ├── pyproject.toml
@@ -39,6 +41,16 @@ O arquivo `.env.example` serve como modelo para as variáveis de ambiente utiliz
 ## Desenvolvimento
 
 As ferramentas de desenvolvimento são declaradas no grupo `dev` do `pyproject.toml`.
+
+### Pre-commit
+
+Após instalar as dependências de desenvolvimento, ative os hooks do Git:
+
+```bash
+pre-commit install
+```
+
+Os hooks executam verificações de qualidade e testes automaticamente durante os commits.
 
 ### Testes
 
