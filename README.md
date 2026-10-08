@@ -6,6 +6,8 @@ Projeto pessoal de Inteligência Artificial desenvolvido em Python.
 
 Construir uma aplicação de IA com uma base organizada, testável e segura, evoluindo gradualmente para workflows com agentes, ferramentas e integrações.
 
+Um dos principais objetivos deste projeto é permitir que agentes auditem o projeto, encontrem problemas, riscos e inconsistências, expliquem suas descobertas, proponham soluções e realizem testes e verificações. Mudanças importantes devem aguardar a aprovação do usuário antes de serem aplicadas.
+
 ## Tecnologias
 
 - Python 3.13+
@@ -13,6 +15,7 @@ Construir uma aplicação de IA com uma base organizada, testável e segura, evo
 - python-dotenv
 - pytest
 - Ruff
+- pre-commit
 
 ## Estrutura
 
