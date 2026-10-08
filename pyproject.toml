@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "projeto-ia"
 version = "0.1.0"
 description = "Projeto de IA privado e pessoal"
+readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "python-dotenv==1.2.4",
