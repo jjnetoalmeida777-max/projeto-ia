@@ -96,3 +96,33 @@ Depois da publicação, atualizar o registro com o identificador do commit confi
 Criar novos checkpoints após decisões importantes, alterações estruturais, verificações relevantes e antes de interromper trabalhos longos.
 
 Preservar checkpoints anteriores como histórico. Corrigir informações desatualizadas por meio de novos registros identificados, sem apagar silenciosamente decisões antigas.
+
+## Checkpoint 003 — Publicação da arquitetura de referência
+
+Data: 09/10/2026.
+
+### Resultado confirmado
+
+- Commit `00940e7` criado com sucesso.
+- Mensagem: Registrar arquitetura, decisoes e checkpoints do Projeto IA.
+- Três documentos adicionados: `docs/ARQUITETURA.md`, `docs/ORDENS_E_DECISOES.md` e `docs/CHECKPOINTS.md`.
+- Testes pytest passaram durante o commit.
+- Hooks Ruff foram ignorados porque não havia arquivos Python no commit.
+- Push confirmado para `origin/main`: `5d173c9..00940e7`.
+- `git status --short --branch` confirmou `main...origin/main`.
+- `README.md.backup` permanece local, não rastreado e fora do commit.
+
+### Decisão preservada
+
+Manter a arquitetura de monólito modular, orientado a tarefas, capacidades e agentes, com núcleo independente de provedores e expansão gradual, preservando o objetivo multifuncional completo.
+
+### Pendências
+
+- Consolidar requisitos completos e critérios de aceitação.
+- Detalhar contratos, fluxos, permissões, persistência e recuperação.
+- Validar a arquitetura detalhada antes de implementar novos módulos.
+- Versionar e publicar esta atualização de checkpoint.
+
+### Próximo passo
+
+Verificar a atualização deste documento e publicar um novo commit de checkpoint. Em seguida, iniciar a especificação detalhada dos requisitos e contratos arquiteturais.
