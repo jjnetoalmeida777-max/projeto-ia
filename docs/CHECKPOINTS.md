@@ -126,3 +126,54 @@ Manter a arquitetura de monólito modular, orientado a tarefas, capacidades e ag
 ### Próximo passo
 
 Verificar a atualização deste documento e publicar um novo commit de checkpoint. Em seguida, iniciar a especificação detalhada dos requisitos e contratos arquiteturais.
+
+## Checkpoint 004 — Requisitos iniciais publicados e retomada verificada
+
+Data: 10/10/2026.
+
+### Objetivo
+
+Registrar a publicacao do rascunho inicial dos requisitos da plataforma multifuncional de IA e o estado confirmado na retomada.
+
+### Arquivos envolvidos
+
+- docs/REQUISITOS.md: documento inicial de requisitos, com 152 linhas.
+- docs/CHECKPOINTS.md: registro historico de continuidade.
+- README.md.backup: arquivo local nao rastreado, preservado.
+
+### Estado confirmado
+
+- O documento docs/REQUISITOS.md foi criado como rascunho inicial, nao como especificacao final aprovada.
+- O commit 1cca01e foi criado com a mensagem "Adicionar rascunho inicial dos requisitos do Projeto IA".
+- O pytest passou durante esse commit.
+- Os hooks Ruff foram ignorados porque nao havia arquivos Python no commit.
+- O push para origin/main foi confirmado: 2f5877b..1cca01e.
+- Na retomada, git status --short --branch mostrou main...origin/main e README.md.backup como unico arquivo nao rastreado.
+- A plataforma multifuncional completa ainda nao esta implementada.
+
+### Decisoes preservadas
+
+- Manter o objetivo original de plataforma privada e geral de IA, incluindo software, sites, servidores, documentos, imagens, videos, audio, automacoes e coordenacao de agentes.
+- Manter o monolito modular, com contratos claros e independencia de provedores.
+- Nao implementar novos modulos antes de validar requisitos e arquitetura detalhada.
+- Executar um comando por vez e conferir os resultados.
+- Preservar arquivos locais e historico anterior.
+
+### Pendencias
+
+- Revisar os requisitos funcionais e nao funcionais.
+- Definir criterios de aceitacao verificaveis para cada requisito.
+- Especificar contratos entre tarefas, agentes, provedores e ferramentas.
+- Detalhar seguranca, permissoes, persistencia, memoria, aprendizagem e recuperacao.
+- Definir roadmap de implementacao e testes.
+- Verificar, criar commit e publicar este checkpoint.
+
+### Estado do Git e commit
+
+- Ultimo commit publicado e confirmado antes deste registro: 1cca01e.
+- Branch main sincronizada com origin/main na verificacao anterior a esta alteracao.
+- Este checkpoint ainda precisa ser revisado, commitado e publicado.
+
+### Proximo passo exato
+
+Verificar a alteracao em docs/CHECKPOINTS.md, publicar o checkpoint e iniciar a revisao detalhada dos requisitos e criterios de aceitacao.
