@@ -81,3 +81,27 @@ Data de referência: 09/10/2026.
 Estado: registro inicial das ordens e decisões aprovadas.
 
 Toda alteração importante deverá preservar o histórico, registrar sua justificativa e obter aprovação do proprietário antes de mudar a direção estabelecida.
+
+## 9. Autonomia supervisionada — APROVADA
+
+Data: 10/10/2026.
+
+Decisao expressamente aprovada pelo proprietario: adotar o modelo inicial de autonomia supervisionada para os agentes do Projeto IA.
+
+### Regras aprovadas
+
+- Agentes podem executar automaticamente tarefas de baixo risco dentro de permissoes previamente autorizadas.
+- Operacoes importantes, sensiveis ou potencialmente perigosas exigem aprovacao explicita do proprietario.
+- Operacoes fora das permissoes concedidas nao podem ser executadas automaticamente.
+- Falhas, riscos e decisoes relevantes devem ser registrados e comunicados conforme sua importancia.
+- O proprietario mantem a autoridade final sobre decisoes importantes.
+
+### Detalhamento pendente
+
+- Definir niveis de risco e criterios objetivos de classificacao.
+- Definir escopos, validade e revogacao de permissoes.
+- Especificar solicitacoes de aprovacao, recusas e expiracao.
+- Definir comportamento seguro diante de falhas, interrupcoes e incertezas.
+- Integrar essas regras aos contratos de tarefas, agentes e ferramentas.
+
+Esta decisao nao representa implementacao concluida. Sua especificacao e validacao tecnica permanecem pendentes.
